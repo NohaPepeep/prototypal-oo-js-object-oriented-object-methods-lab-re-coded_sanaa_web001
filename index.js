@@ -7,6 +7,6 @@ BoardMember.prototype.veto=function(){
   return "No, I must disagree";
 }
 
-BoardMember.approve.veto=function(){
+BoardMember.prototype.veto=function(){
   return "You can do that!";
 }
