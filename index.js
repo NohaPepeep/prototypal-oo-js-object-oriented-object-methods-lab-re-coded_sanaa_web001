@@ -6,6 +6,7 @@ function BoardMember(name,homeState,training){
 BoardMember.prototype.veto=function(){
   return "No, I must disagree";
 }
+
 BoardMember.approve.veto=function(){
   return "You can do that!";
 }
